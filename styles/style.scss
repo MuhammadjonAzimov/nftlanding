@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    background: #111111;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    padding: 70px 120px;
+
+    .nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navigation {
+            display: flex;
+            gap: 28px;
+
+            a {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 100%;
+                color: #CCCCCC;
+                text-decoration: none;
+            }
+
+            .focus {
+                color: #FF3998;
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+
+        .text-container {
+            width: 50%;
+            height: 100%;
+
+            .text-box {
+                margin-top: 90px;
+
+                b {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: 0.1em;
+                    text-transform: uppercase;
+                    color: #FF3998;
+                }
+
+                h2 {
+                    margin-top: 14px;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 96px;
+                    line-height: 116px;
+                    color: #FFFFFF;
+                }
+
+                p {
+                    margin-top: 22px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #CCCCCC;
+                }
+            }
+
+            button {
+                width: 178px;
+                height: 65px;
+                border: 4px solid rgb(230, 124, 62);
+                border-radius: 100px;
+                background: #111111;
+                color: white;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 150%;
+                margin-top: 40px;
+            }
+        }
+    
+        .img-container {
+            width: 50%;
+            height: 100%;
+
+            .calmar {
+                width: 600px;
+            }
+        }
+    }
+} 
